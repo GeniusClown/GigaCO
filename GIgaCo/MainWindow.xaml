@@ -1,0 +1,21 @@
+﻿<Window x:Class="GIgaCo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GIgaCo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="Red"></Grid>
+        <Grid Grid.Column="1" Background="Black"></Grid>
+        <Image x:Name="_7cdd875f4bb642b6abdb7930a7ade6e1e2c35ae1_2_1024x576_jpeg" Grid.Column="0" Source="7cdd875f4bb642b6abdb7930a7ade6e1e2c35ae1_2_1024x576.jpeg" VerticalAlignment="Top"/>
+        <TextBlock RenderTransformOrigin="0.513,-3.124">GigaCo</TextBlock>
+        <TextBlock Grid.Column="1" Margin="28,54,464,-54" Foreground="White">Производство видеокарт</TextBlock>
+        <Label Grid.Column="1" Foreground="White" >GigaCo</Label>
+    </Grid>
+</Window>
