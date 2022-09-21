@@ -1,7 +1,6 @@
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\bin\Debug\GIgaCo.exe.config
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\bin\Debug\GIgaCo.exe
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\bin\Debug\GIgaCo.pdb
-C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.csproj.AssemblyReference.cache
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\MainWindow.g.cs
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\App.g.cs
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo_MarkupCompile.cache
@@ -13,3 +12,8 @@ C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.csproj.CoreCompileInputs.cache
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.exe
 C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.pdb
+C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\otrasl.g.cs
+C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\otrasl.baml
+C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\GIgaCo.csproj.AssemblyReference.cache
+C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\siz.g.cs
+C:\Users\Администратор\source\repos\GIgaCo\GIgaCo\obj\Debug\siz.baml

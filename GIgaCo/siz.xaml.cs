@@ -17,26 +17,19 @@ using System.Windows.Shapes;
 namespace GIgaCo
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для siz.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class siz : Page
     {
-        public MainWindow()
+        public siz()
         {
             InitializeComponent();
+            pdfWebViewer.Navigate(new Uri("https://compsch.com/obzor/texnika-bezopasnosti-pri-rabote-s-kompyuterom.html"));
         }
 
-
-        private void gg(object sender, RoutedEventArgs e)
+        private void silka(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new otrasl());
+            Process.Start("https://app.roboflow.com/farmmoney/cars-wvxqu/1");
         }
-
-
-        private void siz(object sender, RoutedEventArgs e)
-        {
-            MainFrame.Navigate(new siz());
-        }
-
     }
 }

@@ -11,12 +11,22 @@
             <ColumnDefinition Width="150"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label FontSize="50" FontFamily="Times New Roman Bold" Foreground="Black" >GigaCO</Label>
+            <Grid Background="black" Height="15" VerticalAlignment="Bottom" Margin="10"></Grid>
+            <Frame Grid.Row="1" x:Name="MainFrame"></Frame>
+        </Grid>
+        
         <Grid Grid.Column="0" Background="LightCyan"></Grid>
-        <Button x:Name="button1" Width="60" Height="30" Background="LightGray" />
-        <Grid Grid.Column="1" Background="DarkGray"></Grid>
+        
         <Image x:Name="_7cdd875f4bb642b6abdb7930a7ade6e1e2c35ae1_2_1024x576_jpeg" Grid.Column="0" Source="7cdd875f4bb642b6abdb7930a7ade6e1e2c35ae1_2_1024x576.jpeg" VerticalAlignment="Top"/>
-        <TextBlock>GigaCo</TextBlock>
-        <TextBlock Grid.Column="1" FontSize="20" Margin="1,85,268,272" Foreground="Black">Производство видеокарт</TextBlock>
-        <Label Grid.Column="1" FontSize="50" FontFamily="Times New Roman Bold" Foreground="Black" >GigaCo</Label>
+        <Button x:Name="button" Content="Button" Click="gg" Height="30" Width="75"/>
+        <Button x:Name="button1" Content="SIZ" Click="siz" Height="30" Width="75" Margin="41,284,34,105"/>
+        <!-- TextBlock Grid.Column="1" FontSize="20" Margin="1,85,268,272" Foreground="Black">Производство видеокарт</TextBlock -->
     </Grid>
 </Window>
